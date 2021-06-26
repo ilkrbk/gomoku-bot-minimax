@@ -1,0 +1,74 @@
+*
+	box-sizing: border-box
+
+html, body
+	width: 100%
+	min-height: 100vh
+	display: flex
+	flex-flow: column nowrap
+	margin: 0
+	padding: 0
+	background-color: #1abc9c
+
+.maincontent 
+	flex: 1 0
+	display: flex
+	flex-direction: row
+	align-content: space-between
+
+
+ul, ol
+	list-style: none
+	padding: 0
+	margin: 0
+
+a
+	text-decoration: none
+	color: #000
+
+h1, h2, h3, h4, h5, h6, p
+	margin-bottom: 0
+	font-weight: normal
+	font-style: normal
+
+.container
+	margin: auto
+	display: flex
+
+.wrap__game
+	width: 100%
+
+.game__list
+	display: flex
+	width: 750px
+	flex-wrap: wrap
+	margin: 10px auto
+
+.game__item
+	display: flex
+	border: 1px solid black
+	width: 50px
+	height: 50px
+	position: relative
+
+.min__player
+	display: flex
+	width: 30px
+	height: 30px
+	background: #3498db
+	border-radius: 50%
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+	
+.max__player
+	display: flex
+	width: 30px
+	height: 30px
+	background: #e74c3c;
+	border-radius: 50%
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
